@@ -1,0 +1,12 @@
+# Ignorar arquivos de state
+*.tfstate
+*.tfstate.*
+
+# Lock file do Terraform
+.terraform.lock.hcl
+
+# Pasta de dependências Terraform
+.terraform/
+
+# Diretório de state local
+terraform.tfstate.d/
